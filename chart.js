@@ -1,7 +1,7 @@
 <!-- chart   -->
 <div id="line-example"></div>
 
-
+<script src="{{asset('js/jquery.min.js')}}"></script>
 <script src="{{asset('js/morris.min.js')}}"></script>
 <script src="{{asset('js/raphael.min.js')}}"></script>
 
