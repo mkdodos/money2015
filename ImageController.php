@@ -19,16 +19,9 @@ class ImageController extends Controller {
 		return view('image');
 	}
 
-	public function save(Request $request)
+public function save(Request $request)
   {
-     // $request->validate([
-     //      'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
-     // ]);
-     //
-
-  	// $this->validate($request, [
-  	//         'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
-  	//     ]);
+    
 
   	//檔案重新命名移動到指定位置
      if ($files = $request->file('image')) {
